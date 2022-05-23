@@ -1,10 +1,25 @@
 body{
     background-image: url(https://www.ausfilm.com.au/wp-content/uploads/2019/03/matrix_code.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
     color: white;
 }
 header{
     text-align: center;
     color: white;
+}
+a{
+    font-size: 400%;
+    font-weight: bold;
+}
+a:link{
+    color: darkorchid;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:active{
+    color: yellowgreen;
 }
 .media{
     border: 4px gray solid;
